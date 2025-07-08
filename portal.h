@@ -163,7 +163,7 @@ void printHomeToScreen() {
   DISP.setTextSize(MEDIUM_TEXT);
   DISP.setTextColor(BGCOLOR, FGCOLOR);
   DISP.setCursor(0, 0);
-  DISP.println(" NEMO PORTAL ");
+  DISP.println(" Customer Free WiFi  ");
   DISP.setTextSize(SMALL_TEXT);
   DISP.setTextColor(FGCOLOR, BGCOLOR);
   DISP.printf("%s\n\n",apSsidName.c_str());
